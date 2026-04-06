@@ -1,0 +1,23 @@
+// class Arrays{ } // java utililiy class
+
+//print values of an array
+Arrays.toString(variable);
+
+Arrays.sort(variable);
+
+//check if two arrays are equal or not
+Arrays.equals(variable1, variable2);
+
+//copy an array
+int[] copy = Arrays.copyOf(variable, size);
+// copy to some range of an array
+int[] copy = Arrays.copyOfRange(variable, lowerlimit, upperlimit);
+
+//fill values inside empty array fill()
+Arrays.fill(variable,  value);
+
+
+
+object. toString() --> Object class return memory reference;
+
+Arrays.toString(variable) --> String class returns values in the memory reference;
